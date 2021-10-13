@@ -1,0 +1,40 @@
+{
+  "name": "BC-Admin",
+  "version": "1.0.0",
+  "description": "Bot connect admin panel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development --env=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulmoizshaikh/BC-Admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulmoizshaikh/BC-Admin/issues"
+  },
+  "homepage": "https://github.com/abdulmoizshaikh/BC-Admin#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@types/react": "^17.0.29",
+    "@types/react-dom": "^17.0.9",
+    "babel-loader": "^8.2.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
