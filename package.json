@@ -23,8 +23,14 @@
   },
   "homepage": "https://github.com/abdulmoizshaikh/BC-Admin#readme",
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^17.0.2",
+    "react-hamburgers": "^1.0.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "reactstrap": "^8.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
@@ -32,6 +38,7 @@
     "@babel/preset-react": "^7.14.5",
     "@types/react": "^17.0.29",
     "@types/react-dom": "^17.0.9",
+    "@types/react-redux": "^7.1.19",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "babel-eslint": "^10.1.0",
